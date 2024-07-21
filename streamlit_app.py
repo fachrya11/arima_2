@@ -4,9 +4,6 @@ import numpy as np
 import pickle
 from datetime import datetime, timedelta
 
-# Muat model ARIMA
-with open('model/arima_model.pkl', 'rb') as file:
-    model_ARIMA = pickle.load(file)
 
 # Aplikasi Streamlit
 st.title("Prediksi Harga Saham")
